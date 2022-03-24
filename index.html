@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "icon" type = "jpg/png"  href = "css/imagenes/icono.png">
+        <link rel = "stylesheet" type = "text/css" href = "css/estilos.css">
+        <script src="https://kit.fontawesome.com/d31c39d666.js" crossorigin="anonymous"></script>
+        <title>Clima Hoy</title>
+    </head>
+    <body>
+        <header id = "cabecera">
+            <div class = "icono">
+                <img src = "css/imagenes/clima.png">
+            </div>
+
+            <div class = "titulo">
+                <h1>CLIMA</h1>
+            </div>
+
+            <nav id = "menu">
+                <ul>
+                    <li><a href = "#">Servicios</a></li>
+                    <li><a href = "#">Contacto</a></li>
+                    <li><a href = "#">Nosotros</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id = "principal">
+            <div class = "contenedor-clima dia">
+                <div id = "buscador">
+                    <form id = "formulario">
+                        <input type = "text" placeholder = "Introduzca su ciudad..." id = "ciudad">
+                        <input type = "submit" value = "Buscar" id = "buscar">
+                    </form>
+                </div>
+
+                <div class = "contenedor-temperatura">
+                    <div id = "temperatura">
+                        35
+                    </div>
+    
+                    <div>
+                        ºC
+                    </div>
+                </div>
+
+                <div id = "icono">
+                    <img src = "css/imagenes/clima.png">
+                </div>
+
+                <div id = "descripcion">
+                    
+                </div>
+
+                <div id = "ciudad-campo">
+                    
+                </div>
+
+                <div id = "actualizar">
+
+                </div>
+
+                <div class = "contenedor-temperaturas">
+                    <div id = "minimo">
+                        
+                    </div>
+    
+                    <div id = "maximo">
+                        
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            Hecho por Gastón Cano 2022
+        </footer>
+
+        <script type = "text/javascript" src = "javascript/app.js"></script>
+    </body>
+</html>
